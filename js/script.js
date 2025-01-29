@@ -13,6 +13,8 @@ saveBtn.addEventListener("click", function (e) {
     
 })
 
+area.textContent = localStorage.getItem("save")
+
 clearBtn.addEventListener("click", function (e) {
     e.preventDefault()
     localStorage.clear()
